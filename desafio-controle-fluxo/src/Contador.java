@@ -39,6 +39,7 @@ public class Contador {
 	static void contar(int parametroUm, int parametroDois) throws ParametrosInvalidosException {
 		
 		int contagem = parametroDois - parametroUm;
+		
 		if(contagem<=0){
 			throw new ParametrosInvalidosException();
 		}
